@@ -1,0 +1,12 @@
+\frametitle{Install Docker}
+	\begin{itemize}
+		\item Reload systemd services \\
+		\verb+sudo systemctl daemon-reload+ \\
+		\verb+sudo systemctl restart docker+
+		\item Execute \verb+docker info+ and if you see \\
+		\begin{verbatim}
+			Registry Mirrors:
+			 https://hub-mirror.c.163.com/
+		\end{verbatim}
+		The configuration has been applied.
+	\end{itemize}
